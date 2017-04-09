@@ -22,4 +22,8 @@ RSpec.describe Bubblesort do
     expect(Bubblesort.sort([1, 2])).to eq([1, 2])
   end
 
+  it "sorts a list with 3 elements when the list is unsorted" do
+    expect(Bubblesort.sort([2, 1, 3])).to eq([1, 2, 3])
+  end
+
 end
