@@ -26,4 +26,8 @@ RSpec.describe Bubblesort do
     expect(Bubblesort.sort([2, 1, 3])).to eq([1, 2, 3])
   end
 
+  it "sorts a list with 3 elements when the 2nd element is larger than the 3rd" do
+    expect(Bubblesort.sort([1, 3, 2])).to eq([1, 2, 3])
+  end
+
 end
