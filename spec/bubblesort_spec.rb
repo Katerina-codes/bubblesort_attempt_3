@@ -9,4 +9,9 @@ RSpec.describe Bubblesort do
   it "sorts an empty list" do
     expect(Bubblesort.sort([])).to eq([])
   end
+
+  it "sorts a list with 1 element" do
+    expect(Bubblesort.sort([1])).to eq([1])
+  end
+
 end
