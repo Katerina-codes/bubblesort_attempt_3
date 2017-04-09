@@ -30,4 +30,8 @@ RSpec.describe Bubblesort do
     expect(Bubblesort.sort([1, 3, 2])).to eq([1, 2, 3])
   end
 
+  it "sorts a list with 3 elements when the list is sorted and 3rd element is 4" do
+    expect(Bubblesort.sort([1, 2, 4])).to eq([1, 2, 4])
+  end
+
 end
