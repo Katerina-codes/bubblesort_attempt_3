@@ -14,4 +14,8 @@ RSpec.describe Bubblesort do
     expect(Bubblesort.sort([1])).to eq([1])
   end
 
+  it "sort a list with 2 elements" do
+    expect(Bubblesort.sort([2, 1])).to eq([1, 2])
+  end
+
 end
