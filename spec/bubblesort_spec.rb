@@ -25,4 +25,8 @@ RSpec.describe Bubblesort do
   it "sorts a list of 2 other elements" do
     expect(Bubblesort.sort([1, 3])).to eq([1, 3])
   end
+
+  it "sorts an unsorted list of 2 other elements" do
+    expect(Bubblesort.sort([3, 1])).to eq([1, 3])
+  end
 end

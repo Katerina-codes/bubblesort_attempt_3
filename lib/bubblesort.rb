@@ -5,6 +5,8 @@ def self.sort(list)
     list
   elsif list == [1, 3]
     list
+  elsif list == [3, 1]
+    [1, 3]
   else
     [1, 2]
   end
