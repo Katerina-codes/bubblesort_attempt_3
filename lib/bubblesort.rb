@@ -5,10 +5,8 @@ def self.sort(list)
     list
   elsif list[0] < list[1]
     list
-  elsif list == [2, 1]
-    [1, 2]
-  elsif list == [3, 1]
-    [1, 3]
+  elsif list[0] > list [1]
+    [list[1], list[0]]
   end
 end
 
